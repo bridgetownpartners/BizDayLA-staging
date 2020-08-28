@@ -1,5 +1,7 @@
 Staging site for BizDay.LA
 ===
 
-Changes committed to the `master` branch will appear at [https://staging.BizDay.LA](https://staging.BizDay.LA).
+Notes...
+* Changes committed to the `master` branch will appear at [https://staging.BizDay.LA](https://staging.BizDay.LA).
+* All files in this repo are subject to change _except_ for `CNAME`. That file must remain intact so that http header redirection works properly.
 
