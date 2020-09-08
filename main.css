@@ -1,14 +1,118 @@
-div {
-  align-content: center;
-}
+body, html {
+  height: 100%; }
 
-p {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 25px;
-  text-align: center;
-}
+body {
+  font-family: 'Roboto', sans-serif;
+  background-image: url("./assets/bizDay-la-bg-img.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover; }
 
-a {
-  font-family: Arial, Helvetica, sans-serif;  
-  color: blue;
-}
+.biz-day-content__wrapper {
+  height: auto;
+  margin: 40px;
+  position: absolute;
+  width: 500px; }
+  .biz-day-content__wrapper .biz-day__title-wrapper {
+    color: #fff; }
+    .biz-day-content__wrapper .biz-day__title-wrapper .biz-title {
+      color: #fff;
+      font-size: 50px;
+      font-weight: 900; }
+      .biz-day-content__wrapper .biz-day__title-wrapper .biz-title .biz-day-red-dot {
+        color: red; }
+    .biz-day-content__wrapper .biz-day__title-wrapper .biz-day__sub-title {
+      font-size: 30px;
+      font-weight: bold;
+      line-height: 1; }
+  .biz-day-content__wrapper .biz-day__explained-wrapper {
+    color: #fff;
+    margin-top: 30px; }
+    .biz-day-content__wrapper .biz-day__explained-wrapper .biz-day__explained-title {
+      font-size: 20px;
+      font-weight: bold; }
+    .biz-day-content__wrapper .biz-day__explained-wrapper .biz-day__explained-sub-title {
+      font-size: 16px; }
+  .biz-day-content__wrapper .biz-day__socials-one {
+    color: #fff;
+    margin-top: 30px; }
+    .biz-day-content__wrapper .biz-day__socials-one .biz-day__socials-icon {
+      margin: 10px 0; }
+      .biz-day-content__wrapper .biz-day__socials-one .biz-day__socials-icon:hover {
+        cursor: pointer; }
+    .biz-day-content__wrapper .biz-day__socials-one .biz-day__socials-alt:hover {
+      cursor: pointer; }
+    .biz-day-content__wrapper .biz-day__socials-one .biz-day__socials-alt .biz-day__underline {
+      background-color: #fff;
+      height: 1px;
+      width: 17%; }
+    .biz-day-content__wrapper .biz-day__socials-one .biz-day__socials-title {
+      font-size: 16px;
+      font-weight: bold; }
+
+.biz-day-la__towers-wrapper {
+  bottom: 0;
+  display: flex;
+  height: auto;
+  flex-direction: column;
+  justify-content: flex-end;
+  position: absolute;
+  width: 100%; }
+  .biz-day-la__towers-wrapper .biz-day-la__towers {
+    display: flex;
+    justify-content: flex-end; }
+  .biz-day-la__towers-wrapper .towers-divider__wrapper {
+    bottom: 10px;
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    width: 100%; }
+    .biz-day-la__towers-wrapper .towers-divider__wrapper .towers-divider {
+      background-color: #fff;
+      border-radius: 20px 0 0 20px;
+      height: 10px;
+      width: 80%; }
+  .biz-day-la__towers-wrapper .biz-day__socials-two-container {
+    padding: 0 25px 25px 0;
+    width: 100%; }
+    .biz-day-la__towers-wrapper .biz-day__socials-two-container .biz-day__socials-two {
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-end; }
+      .biz-day-la__towers-wrapper .biz-day__socials-two-container .biz-day__socials-two .twitter {
+        margin-right: 10px; }
+        .biz-day-la__towers-wrapper .biz-day__socials-two-container .biz-day__socials-two .twitter:hover {
+          cursor: pointer; }
+      .biz-day-la__towers-wrapper .biz-day__socials-two-container .biz-day__socials-two .facebook:hover {
+        cursor: pointer; }
+    .biz-day-la__towers-wrapper .biz-day__socials-two-container .biz-day__socials-find-us {
+      color: #fff;
+      margin-bottom: 5px;
+      text-align: right; }
+
+@keyframes float {
+  0% {
+    transform: translatey(0px); }
+  50% {
+    transform: translatey(-20px); }
+  100% {
+    transform: translatey(0px); } }
+.drone-container {
+  width: 95%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end; }
+
+.drone {
+  width: 120px;
+  height: 130px;
+  box-sizing: border-box;
+  overflow: hidden;
+  transform: translatey(0px);
+  animation: float 3s ease-in-out infinite; }
+  .drone img {
+    width: 100%;
+    height: auto; }
