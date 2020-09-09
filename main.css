@@ -30,7 +30,7 @@ body {
     .biz-day-content__wrapper .biz-day__title-wrapper .biz-day__sub-title {
       font-size: 30px;
       font-weight: 300;
-      line-height: 1;
+      line-height: 1.3;
       margin-block-start: 0;
       margin-block-end: 0; }
   .biz-day-content__wrapper .biz-day__explained-wrapper {
@@ -41,13 +41,14 @@ body {
       font-weight: 600; }
     .biz-day-content__wrapper .biz-day__explained-wrapper .biz-day__explained-sub-title {
       font-size: 16px;
-      font-weight: 300; }
+      font-weight: 300;
+      line-height: 1.6; }
   .biz-day-content__wrapper .biz-day__socials-one {
     color: #fff;
-    margin-top: 30px; }
+    margin-top: 60px; }
     .biz-day-content__wrapper .biz-day__socials-one .biz-day__socials-icon {
       display: block;
-      margin: 20px 0; }
+      margin: 10px 0; }
       .biz-day-content__wrapper .biz-day__socials-one .biz-day__socials-icon:hover {
         cursor: pointer; }
     .biz-day-content__wrapper .biz-day__socials-one .biz-day__socials-alt {
@@ -74,6 +75,8 @@ body {
   .biz-day-la__towers-wrapper .biz-day-la__towers {
     display: flex;
     justify-content: flex-end; }
+    .biz-day-la__towers-wrapper .biz-day-la__towers img {
+      width: 90%; }
   .biz-day-la__towers-wrapper .towers-divider__wrapper {
     bottom: 10px;
     display: flex;
@@ -92,13 +95,16 @@ body {
     .biz-day__socials-two-container .biz-day__socials-two {
       display: flex;
       flex-direction: row;
-      justify-content: flex-end; }
-      .biz-day__socials-two-container .biz-day__socials-two .twitter {
-        margin-right: 10px; }
-        .biz-day__socials-two-container .biz-day__socials-two .twitter:hover {
-          cursor: pointer; }
-      .biz-day__socials-two-container .biz-day__socials-two .facebook:hover {
-        cursor: pointer; }
+      justify-content: space-between; }
+        .social-icon {
+          display: block;
+          margin: 0 5px; }
+        .social-icon:first-of-type {
+          margin-left: 0; }
+        .social-icon:last-of-type {
+          margin-right: 0; }
+          .social-icon:hover {
+            cursor: pointer; }
     .biz-day__socials-two-container .biz-day__socials-find-us {
       color: #fff;
       font-weight: 300;
