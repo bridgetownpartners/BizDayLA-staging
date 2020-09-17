@@ -118,7 +118,7 @@ body {
   }
 }
 .biz-day-content__wrapper .biz-day__socials-one .biz-day__socials-icon {
-  display: block;
+  display: inline-block;
   margin: 10px 0;
 }
 .biz-day-content__wrapper .biz-day__socials-one .biz-day__socials-icon:hover {
@@ -316,6 +316,12 @@ body {
     left: 350px;
     top: 300px;
     width: 195px;
+  }
+}
+@media only screen and (min-width: 1600px) {
+  .cloud-container .cloud:nth-of-type(1) {
+    left: 850px;
+    top: 50px;
   }
 }
 .cloud-container .cloud:nth-of-type(2) {
