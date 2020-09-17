@@ -17,7 +17,7 @@ body {
 @media only screen and (max-width: 600px) {
   body {
     background-image: url("./assets/mobile-bg-img.png");
-    background-position: center -40px;
+    background-position: center -100px;
   }
 }
 
@@ -184,14 +184,16 @@ body {
 }
 
 .biz-day-la__towers-wrapper {
-  bottom: 140px;
+  bottom: 80px;
   position: absolute;
   right: 0;
+  overflow: hidden;
   width: 100%;
 }
 @media only screen and (max-width: 600px) {
   .biz-day-la__towers-wrapper {
     bottom: 20px;
+    height: 100vh;
     position: relative;
   }
 }
@@ -240,9 +242,23 @@ body {
 }
 
 .biz-day__socials-two-container {
+  bottom: 0;
+  height: 120px;
+  position: relative;
+  top: calc(100vh - 80px);
+}
+.biz-day__socials-two-container .biz-day__socials-two-wrapper {
   position: absolute;
   bottom: 45px;
   right: 60px;
+}
+@media only screen and (max-width: 600px) {
+  .biz-day__socials-two-container .biz-day__socials-two-wrapper {
+    bottom: unset;
+    position: unset;
+    right: unset;
+    margin: 0 auto;
+  }
 }
 @media only screen and (max-width: 600px) {
   .biz-day__socials-two-container img {
@@ -252,12 +268,10 @@ body {
 @media only screen and (max-width: 600px) {
   .biz-day__socials-two-container {
     align-items: center;
-    bottom: 0;
     display: flex;
     flex-direction: column;
     padding: 0;
-    position: relative;
-    top: calc(100vh - 80px);
+    position: unset;
     right: unset;
     margin: 0 auto;
     text-align: center;
@@ -270,7 +284,7 @@ body {
     display: flex;
     flex-direction: column;
     padding: 0;
-    position: absolute;
+    position: relative;
   }
 }
 .biz-day__socials-two-container .biz-day__socials-two {
@@ -420,13 +434,13 @@ body {
 }
 
 .biz-day-la__towers-mobile {
-  bottom: 110px;
+  bottom: 0;
   box-sizing: border-box;
   overflow: hidden;
   transform: translatex(-321px);
   animation: urban-city-anim 100s ease-in-out infinite;
   animation-delay: 2s;
-  position: fixed;
+  position: absolute;
   width: 200%;
 }
 .biz-day-la__towers-mobile img {
