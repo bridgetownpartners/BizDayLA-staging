@@ -466,6 +466,11 @@ body {
 .biz-day-section__container {
   height: 100%;
 }
+@media only screen and (max-width: 600px) {
+  .biz-day-section__container {
+    height: auto;
+  }
+}
 .biz-day-section__container .biz-day-section__wrapper {
   margin: 0 auto;
   text-align: center;
@@ -487,14 +492,19 @@ body {
   font-weight: bold;
 }
 .biz-day-section__container .biz-day-section__wrapper .biz-day-content__wrapper, .biz-day-section__container .biz-day-section__wrapper .biz-day-card__wrapper {
-  padding: 50px 0;
+  padding: 50px 190px;
+}
+@media only screen and (max-width: 600px) {
+  .biz-day-section__container .biz-day-section__wrapper .biz-day-content__wrapper, .biz-day-section__container .biz-day-section__wrapper .biz-day-card__wrapper {
+    padding: 50px 0;
+  }
 }
 .biz-day-section__container .biz-day-section__wrapper .biz-day-content__wrapper .biz-day__phrase:after, .biz-day-section__container .biz-day-section__wrapper .biz-day-card__wrapper .biz-day__phrase:after {
   background-color: #000;
   content: "";
   display: block;
   height: 1px;
-  margin: 15px auto;
+  margin: 30px auto;
   width: 67px;
 }
 .biz-day-section__container .biz-day-section__wrapper .biz-day-content__wrapper .biz-day__phrase:last-of-type:after, .biz-day-section__container .biz-day-section__wrapper .biz-day-card__wrapper .biz-day__phrase:last-of-type:after {
@@ -507,6 +517,7 @@ body {
   justify-content: space-evenly;
   margin: 0 auto;
   max-width: 900px;
+  padding: 50px 0;
 }
 .biz-day-section__container .biz-day-section__wrapper .biz-day-card__wrapper .bizday_card_topic {
   list-style-type: none;
