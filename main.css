@@ -14,7 +14,7 @@ body {
 }
 
 .biz-day-content__container {
-  height: 115%;
+  height: 100%;
   background-image: url("./assets/bizday-la-bg-img-no-clouds-png.png");
   background-position: center center;
   background-repeat: no-repeat;
@@ -25,6 +25,7 @@ body {
   .biz-day-content__container {
     background-image: url("./assets/mobile-bg-img.png");
     background-position: center -100px;
+    height: 115%;
   }
 }
 
