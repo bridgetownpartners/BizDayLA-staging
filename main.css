@@ -23,14 +23,14 @@ body {
 }
 @media only screen and (max-width: 320px) {
   .biz-day-content__container {
-    height: 150%;
+    height: 130%;
   }
 }
 @media (max-width: 600px) and (min-width: 321px) {
   .biz-day-content__container {
     background-image: url("./assets/mobile-bg-img.png");
     background-position: center -100px;
-    height: 150%;
+    height: 130%;
   }
 }
 
