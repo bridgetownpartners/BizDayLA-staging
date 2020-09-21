@@ -1,12 +1,20 @@
+* {
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
 html {
   height: 100%;
-  box-sizing: border-box;
 }
 
 body {
   height: 100%;
-  box-sizing: border-box;
-  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.biz-day-content__container {
+  height: 100%;
   background-image: url("./assets/bizday-la-bg-img-no-clouds-png.png");
   background-position: center center;
   background-repeat: no-repeat;
@@ -15,13 +23,13 @@ body {
   margin: 0;
 }
 @media only screen and (max-width: 600px) {
-  body {
+  .biz-day-content__container {
     background-image: url("./assets/mobile-bg-img.png");
     background-position: center -100px;
   }
 }
 
-.biz-day-content__wrapper {
+.biz-day-hero__wrapper {
   height: auto;
   margin: 50px;
   position: absolute;
@@ -29,35 +37,35 @@ body {
   z-index: 100;
 }
 @media only screen and (max-width: 600px) {
-  .biz-day-content__wrapper {
+  .biz-day-hero__wrapper {
     margin: 20px;
     width: 310px;
   }
 }
 @media (max-width: 1024px) and (min-width: 768px) {
-  .biz-day-content__wrapper {
+  .biz-day-hero__wrapper {
     margin: 20px;
   }
 }
-.biz-day-content__wrapper .biz-day__title-wrapper {
+.biz-day-hero__wrapper .biz-day__title-wrapper {
   color: #fff;
 }
-.biz-day-content__wrapper .biz-day__title-wrapper .biz-title {
+.biz-day-hero__wrapper .biz-day__title-wrapper .biz-title {
   color: #fff;
   font-size: 50px;
   font-weight: 900;
   margin-block-start: 0;
   margin-block-end: 0;
 }
-.biz-day-content__wrapper .biz-day__title-wrapper .biz-title .biz-day-red-dot {
+.biz-day-hero__wrapper .biz-day__title-wrapper .biz-title .biz-day-red-dot {
   color: red;
 }
 @media only screen and (max-width: 600px) {
-  .biz-day-content__wrapper .biz-day__title-wrapper .biz-title {
+  .biz-day-hero__wrapper .biz-day__title-wrapper .biz-title {
     font-size: 40px;
   }
 }
-.biz-day-content__wrapper .biz-day__title-wrapper .biz-day__sub-title {
+.biz-day-hero__wrapper .biz-day__title-wrapper .biz-day__sub-title {
   font-size: 30px;
   font-weight: 300;
   line-height: 1.3;
@@ -65,84 +73,84 @@ body {
   margin-block-end: 0;
 }
 @media only screen and (max-width: 600px) {
-  .biz-day-content__wrapper .biz-day__title-wrapper .biz-day__sub-title {
+  .biz-day-hero__wrapper .biz-day__title-wrapper .biz-day__sub-title {
     font-size: 20px;
   }
 }
 @media (max-width: 1024px) and (min-width: 768px) {
-  .biz-day-content__wrapper .biz-day__title-wrapper .biz-day__sub-title {
+  .biz-day-hero__wrapper .biz-day__title-wrapper .biz-day__sub-title {
     font-size: 25px;
   }
 }
-.biz-day-content__wrapper .biz-day__explained-wrapper {
+.biz-day-hero__wrapper .biz-day__explained-wrapper {
   color: #fff;
   margin-top: 60px;
 }
 @media only screen and (max-width: 600px) {
-  .biz-day-content__wrapper .biz-day__explained-wrapper {
+  .biz-day-hero__wrapper .biz-day__explained-wrapper {
     margin-top: 20px;
   }
 }
 @media (max-width: 1024px) and (min-width: 768px) {
-  .biz-day-content__wrapper .biz-day__explained-wrapper {
+  .biz-day-hero__wrapper .biz-day__explained-wrapper {
     margin-top: 20px;
   }
 }
-.biz-day-content__wrapper .biz-day__explained-wrapper .biz-day__explained-title {
+.biz-day-hero__wrapper .biz-day__explained-wrapper .biz-day__explained-title {
   font-size: 20px;
   font-weight: 600;
 }
 @media only screen and (max-width: 600px) {
-  .biz-day-content__wrapper .biz-day__explained-wrapper .biz-day__explained-title {
+  .biz-day-hero__wrapper .biz-day__explained-wrapper .biz-day__explained-title {
     font-size: 16px;
   }
 }
-.biz-day-content__wrapper .biz-day__explained-wrapper .biz-day__explained-sub-title {
+.biz-day-hero__wrapper .biz-day__explained-wrapper .biz-day__explained-sub-title {
   font-size: 16px;
   font-weight: 300;
   line-height: 1.6;
 }
 @media only screen and (max-width: 600px) {
-  .biz-day-content__wrapper .biz-day__explained-wrapper .biz-day__explained-sub-title {
+  .biz-day-hero__wrapper .biz-day__explained-wrapper .biz-day__explained-sub-title {
     font-size: 12px;
     width: 70%;
   }
 }
-.biz-day-content__wrapper .biz-day__socials-one {
+.biz-day-hero__wrapper .biz-day__socials-one {
   color: #fff;
   margin-top: 60px;
 }
 @media only screen and (max-width: 600px) {
-  .biz-day-content__wrapper .biz-day__socials-one {
+  .biz-day-hero__wrapper .biz-day__socials-one {
     margin-top: 20px;
   }
 }
-.biz-day-content__wrapper .biz-day__socials-one .biz-day__socials-icon {
+.biz-day-hero__wrapper .biz-day__socials-one .biz-day__socials-icon {
   display: inline-block;
   margin: 10px 0;
 }
-.biz-day-content__wrapper .biz-day__socials-one .biz-day__socials-icon:hover {
+.biz-day-hero__wrapper .biz-day__socials-one .biz-day__socials-icon:hover {
   cursor: pointer;
 }
 @media only screen and (max-width: 600px) {
-  .biz-day-content__wrapper .biz-day__socials-one .biz-day__socials-icon img {
+  .biz-day-hero__wrapper .biz-day__socials-one .biz-day__socials-icon img {
     width: 30%;
   }
 }
 @media (max-width: 1024px) and (min-width: 768px) {
-  .biz-day-content__wrapper .biz-day__socials-one .biz-day__socials-icon img {
+  .biz-day-hero__wrapper .biz-day__socials-one .biz-day__socials-icon img {
     width: 20%;
   }
 }
-.biz-day-content__wrapper .biz-day__socials-one .biz-day__socials-alt {
+.biz-day-hero__wrapper .biz-day__socials-one .biz-day__socials-alt {
   color: #fff;
   display: inline-block;
   text-decoration: none;
 }
-.biz-day-content__wrapper .biz-day__socials-one .biz-day__socials-alt:hover {
+.biz-day-hero__wrapper .biz-day__socials-one .biz-day__socials-alt:hover {
   cursor: pointer;
 }
-.biz-day-content__wrapper .biz-day__socials-one .biz-day__socials-alt:after {
+.biz-day-hero__wrapper .biz-day__socials-one .biz-day__socials-alt:after {
   background-color: #fff;
   content: "";
   display: inline-block;
@@ -151,17 +159,17 @@ body {
   top: -10px;
   width: 100%;
 }
-.biz-day-content__wrapper .biz-day__socials-one .biz-day__socials-title {
+.biz-day-hero__wrapper .biz-day__socials-one .biz-day__socials-title {
   font-size: 16px;
   font-weight: bold;
 }
 @media only screen and (max-width: 600px) {
-  .biz-day-content__wrapper .biz-day__socials-one .biz-day__socials-title {
+  .biz-day-hero__wrapper .biz-day__socials-one .biz-day__socials-title {
     font-size: 14px;
   }
 }
 @media (max-width: 1024px) and (min-width: 768px) {
-  .biz-day-content__wrapper .biz-day__socials-one {
+  .biz-day-hero__wrapper .biz-day__socials-one {
     margin-top: 20px;
   }
 }
@@ -448,6 +456,80 @@ body {
   right: 30px;
   position: relative;
   width: 702px;
+}
+
+.biz-day-section__container {
+  height: 100%;
+}
+.biz-day-section__container .biz-day-section__wrapper {
+  margin: 0 auto;
+  text-align: center;
+  padding: 50px 0;
+  width: 60%;
+}
+@media only screen and (max-width: 600px) {
+  .biz-day-section__container .biz-day-section__wrapper {
+    width: 90%;
+  }
+}
+.biz-day-section__container .biz-day-section__wrapper .biz-day__heading {
+  font-size: 40px;
+  font-weight: bold;
+  margin: 0;
+}
+.biz-day-section__container .biz-day-section__wrapper .biz-day__sub-heading {
+  font-size: 28px;
+  font-weight: bold;
+}
+.biz-day-section__container .biz-day-section__wrapper .biz-day-content__wrapper, .biz-day-section__container .biz-day-section__wrapper .biz-day-card__wrapper {
+  padding: 50px 0;
+}
+.biz-day-section__container .biz-day-section__wrapper .biz-day-content__wrapper .biz-day__phrase:after, .biz-day-section__container .biz-day-section__wrapper .biz-day-card__wrapper .biz-day__phrase:after {
+  background-color: #000;
+  content: "";
+  display: block;
+  height: 1px;
+  margin: 15px auto;
+  width: 67px;
+}
+.biz-day-section__container .biz-day-section__wrapper .biz-day-content__wrapper .biz-day__phrase:last-of-type:after, .biz-day-section__container .biz-day-section__wrapper .biz-day-card__wrapper .biz-day__phrase:last-of-type:after {
+  display: none;
+}
+.biz-day-section__container .biz-day-section__wrapper .biz-day-card__wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.biz-day-section__container .biz-day-section__wrapper .biz-day-card__wrapper .bizday_card_topic {
+  list-style-type: none;
+  border: 2px solid #dee2e69e;
+  border-radius: 0.5rem;
+  padding: 1rem 1rem 2rem 1rem;
+  margin-bottom: 15px;
+  max-width: 15rem;
+  min-height: 15rem;
+  min-width: 15rem;
+  text-align: left;
+}
+@media screen and (max-width: 600px) {
+  .biz-day-section__container .biz-day-section__wrapper .biz-day-card__wrapper .bizday_card_topic {
+    max-width: unset;
+    width: 100%;
+  }
+}
+.biz-day-section__container .biz-day-section__wrapper .biz-day-card__wrapper .bizday_card_topic .bizday_card_topic_image {
+  height: 4rem;
+  width: 4rem;
+  margin: auto auto 1.5rem;
+}
+.biz-day-section__container .biz-day-section__wrapper .biz-day-card__wrapper .bizday_card_topic .bizday_card_topic_title {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+.biz-day-section__container .biz-day-section__wrapper .biz-day-card__wrapper .bizday_card_topic .bizday_card_topic_description {
+  font-size: 0.9rem;
+  font-weight: lighter;
 }
 
 @keyframes float {
