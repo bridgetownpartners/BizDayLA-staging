@@ -14,23 +14,17 @@ body {
 }
 
 .biz-day-content__container {
-  height: 100%;
+  height: auto;
   background-image: url("./assets/bizday-la-bg-img-no-clouds-png.png");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
   margin: 0;
 }
-@media only screen and (max-width: 320px) {
-  .biz-day-content__container {
-    height: 130%;
-  }
-}
 @media (max-width: 600px) and (min-width: 321px) {
   .biz-day-content__container {
     background-image: url("./assets/mobile-bg-img.png");
     background-position: center -100px;
-    height: 115%;
   }
 }
 
@@ -107,7 +101,7 @@ body {
 }
 @media only screen and (max-width: 600px) {
   .biz-day-hero__wrapper .biz-day__explained-wrapper .biz-day__explained-title {
-    font-size: 16px;
+    font-size: 20px;
   }
 }
 .biz-day-hero__wrapper .biz-day__explained-wrapper .biz-day__explained-sub-title {
@@ -117,8 +111,7 @@ body {
 }
 @media only screen and (max-width: 600px) {
   .biz-day-hero__wrapper .biz-day__explained-wrapper .biz-day__explained-sub-title {
-    font-size: 12px;
-    width: 70%;
+    width: 90%;
   }
 }
 .biz-day-hero__wrapper .biz-day__socials-one {
@@ -139,7 +132,7 @@ body {
 }
 @media only screen and (max-width: 600px) {
   .biz-day-hero__wrapper .biz-day__socials-one .biz-day__socials-icon img {
-    width: 30%;
+    width: 65px;
   }
 }
 @media (max-width: 1024px) and (min-width: 768px) {
@@ -167,11 +160,6 @@ body {
 .biz-day-hero__wrapper .biz-day__socials-one .biz-day__socials-title {
   font-size: 16px;
   font-weight: bold;
-}
-@media only screen and (max-width: 600px) {
-  .biz-day-hero__wrapper .biz-day__socials-one .biz-day__socials-title {
-    font-size: 14px;
-  }
 }
 @media (max-width: 1024px) and (min-width: 768px) {
   .biz-day-hero__wrapper .biz-day__socials-one {
@@ -479,6 +467,7 @@ body {
 }
 @media only screen and (max-width: 600px) {
   .biz-day-section__container .biz-day-section__wrapper {
+    padding: 50px 0 0;
     width: 90%;
   }
 }
@@ -496,7 +485,7 @@ body {
 }
 @media only screen and (max-width: 600px) {
   .biz-day-section__container .biz-day-section__wrapper .biz-day-content__wrapper, .biz-day-section__container .biz-day-section__wrapper .biz-day-card__wrapper {
-    padding: 50px 0;
+    padding: 50px 0 0;
   }
 }
 .biz-day-section__container .biz-day-section__wrapper .biz-day-content__wrapper .biz-day__phrase:after, .biz-day-section__container .biz-day-section__wrapper .biz-day-card__wrapper .biz-day__phrase:after {
