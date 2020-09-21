@@ -458,7 +458,7 @@ body {
 }
 
 .biz-day-section__container {
-  height: 100%;
+  height: auto;
 }
 @media only screen and (max-width: 600px) {
   .biz-day-section__container {
@@ -468,7 +468,7 @@ body {
 .biz-day-section__container .biz-day-section__wrapper {
   margin: 0 auto;
   text-align: center;
-  padding: 50px 0;
+  padding: 50px 0 0;
   width: 60%;
 }
 @media only screen and (max-width: 600px) {
@@ -492,6 +492,11 @@ body {
 @media only screen and (max-width: 600px) {
   .biz-day-section__container .biz-day-section__wrapper .biz-day-content__wrapper, .biz-day-section__container .biz-day-section__wrapper .biz-day-card__wrapper {
     padding: 50px 0 0;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  .biz-day-section__container .biz-day-section__wrapper .biz-day-content__wrapper, .biz-day-section__container .biz-day-section__wrapper .biz-day-card__wrapper {
+    padding: 0;
   }
 }
 .biz-day-section__container .biz-day-section__wrapper .biz-day-content__wrapper .biz-day__phrase:after, .biz-day-section__container .biz-day-section__wrapper .biz-day-card__wrapper .biz-day__phrase:after {
