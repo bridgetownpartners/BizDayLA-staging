@@ -207,6 +207,7 @@ body {
 .biz-day-la__towers-wrapper .biz-day-la__towers {
   display: flex;
   justify-content: flex-end;
+  height: 490px;
 }
 .biz-day-la__towers-wrapper .biz-day-la__towers img {
   width: 85%;
@@ -214,6 +215,12 @@ body {
 @media only screen and (max-width: 600px) {
   .biz-day-la__towers-wrapper .biz-day-la__towers {
     display: none;
+    height: auto;
+  }
+}
+@media (max-width: 1024px) and (min-width: 768px) {
+  .biz-day-la__towers-wrapper .biz-day-la__towers {
+    height: 215px;
   }
 }
 @media screen and (max-width: 1440px) {
@@ -270,6 +277,11 @@ body {
     position: unset;
     right: unset;
     margin: 0 auto;
+  }
+}
+@media (max-width: 1024px) and (min-width: 768px) {
+  .biz-day__socials-two-container .biz-day__socials-two-wrapper {
+    bottom: 0;
   }
 }
 @media only screen and (max-width: 600px) {
@@ -594,6 +606,12 @@ body {
     width: 70px;
   }
 }
+@media screen and (max-width: 1440px) {
+  .biz-day-content__container--not-full-height {
+    height: 100vh;
+  }
+}
+
 .biz-day-sponsors__heading {
   margin-bottom: 0;
 }
