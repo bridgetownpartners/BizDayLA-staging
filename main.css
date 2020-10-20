@@ -284,11 +284,6 @@ body {
     bottom: 0;
   }
 }
-@media (min-width: 768px) and (max-width: 1440px) {
-  .biz-day__socials-two-container .biz-day__socials-two-wrapper {
-    top: 80px;
-  }
-}
 @media only screen and (max-width: 600px) {
   .biz-day__socials-two-container img {
     width: 50%;
@@ -653,6 +648,10 @@ body {
   text-align: center;
   padding: 50px;
   width: 100%;
+}
+
+.biz-day__footer-link {
+  color: #fff;
 }
 
 @media screen and (max-width: 600px) {
