@@ -541,16 +541,17 @@ body {
 }
 .biz-day-section__container .biz-day-section__wrapper .biz-day-card__wrapper {
   display: flex;
+  display: -ms-flexbox;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  justify-content: space-between;
   margin: 0 auto;
   max-width: 900px;
   padding: 50px 0;
 }
 .biz-day-section__container .biz-day-section__wrapper .biz-day-card__wrapper .bizday_card_topic {
   list-style-type: none;
-  border: 2px solid #dee2e69e;
+  border: 2px solid #dee2e6;
   border-radius: 0.5rem;
   padding: 1rem 1rem 2rem 1rem;
   margin-bottom: 15px;
@@ -618,21 +619,26 @@ body {
 
 .biz-day-sponsors__wrapper {
   display: flex;
+  display: -ms-flexbox;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  justify-content: space-between;
   margin: 0 auto;
   max-width: 900px;
   padding: 50px 0;
 }
 .biz-day-sponsors__wrapper .biz-day-sponsor__card {
-  border: 2px solid #dee2e69e;
+  border: 2px solid #dee2e6;
   border-radius: 5px;
   display: flex;
   height: 250px;
   justify-content: center;
   margin-bottom: 15px;
   width: 245px;
+}
+.biz-day-sponsors__wrapper .biz-day-sponsor__card img {
+  min-height: 140px;
+  max-width: 170px;
 }
 
 .biz-day-footer__wrapper {
