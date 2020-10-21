@@ -488,7 +488,6 @@ body {
 @media only screen and (max-width: 600px) {
   .biz-day-la__towers-mobile img {
     height: 230px;
-    width: 660px;
   }
 }
 .biz-day-section__container {
