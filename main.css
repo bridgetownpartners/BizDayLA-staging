@@ -209,6 +209,11 @@ body {
   justify-content: flex-end;
   height: 490px;
 }
+@media screen and (min-width: 1441px) {
+  .biz-day-la__towers-wrapper .biz-day-la__towers {
+    height: 580px;
+  }
+}
 .biz-day-la__towers-wrapper .biz-day-la__towers img {
   width: 85%;
 }
