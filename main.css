@@ -502,7 +502,7 @@ body {
   box-sizing: border-box;
   overflow: hidden;
   transform: translatex(-321px);
-  animation: urban-city-anim 40s ease-in-out infinite;
+  animation: urban-city-anim 30s ease-in-out infinite;
   animation-delay: 2s;
   position: absolute;
   width: 200%;
