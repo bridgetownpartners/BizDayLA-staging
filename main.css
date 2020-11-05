@@ -6,6 +6,17 @@
 html {
   height: 100%;
 }
+@media screen and (min-width: 320px) and (max-width: 767px) and (orientation: landscape) {
+  html {
+    transform: rotate(-90deg);
+    transform-origin: left top;
+    width: 100vh;
+    overflow-x: hidden;
+    position: absolute;
+    top: 100%;
+    left: 0;
+  }
+}
 
 body {
   height: 100%;
@@ -506,6 +517,11 @@ body {
   animation-delay: 2s;
   position: absolute;
   width: 200%;
+}
+@media only screen and (max-width: 420px) {
+  .biz-day-la__towers-mobile {
+    animation: urban-city-anim 30s ease-in-out infinite;
+  }
 }
 .biz-day-la__towers-mobile img {
   height: 290px;
