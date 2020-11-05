@@ -29,7 +29,7 @@ body {
 @media (max-width: 600px) and (min-width: 321px) {
   .biz-day-content__container {
     background-image: url("./assets/mobile-bg-img.png");
-    background-position: center -100px;
+    background-position: center -200px;
     height: 130%;
   }
 }
@@ -54,6 +54,11 @@ body {
 }
 .biz-day-hero__wrapper .biz-day__title-wrapper {
   color: #fff;
+}
+@media only screen and (max-width: 600px) {
+  .biz-day-hero__wrapper .biz-day__title-wrapper .biz-day__logo {
+    width: 55%;
+  }
 }
 .biz-day-hero__wrapper .biz-day__title-wrapper .biz-title {
   color: #fff;
@@ -217,6 +222,11 @@ body {
 .biz-day-la__towers-wrapper .biz-day-la__towers img {
   width: 85%;
 }
+@media (orientation: landscape) {
+  .biz-day-la__towers-wrapper .biz-day-la__towers img {
+    width: 50%;
+  }
+}
 @media only screen and (max-width: 600px) {
   .biz-day-la__towers-wrapper .biz-day-la__towers {
     display: none;
@@ -231,6 +241,11 @@ body {
 @media screen and (max-width: 1440px) {
   .biz-day-la__towers-wrapper .biz-day-la__towers img {
     width: 80%;
+  }
+}
+@media screen and (min-width: 1441px) {
+  .biz-day-la__towers-wrapper .biz-day-la__towers {
+    height: 580px;
   }
 }
 .biz-day-la__towers-wrapper .biz-day-la__towers-mobile {
@@ -270,6 +285,12 @@ body {
   height: 120px;
   position: relative;
   top: calc(100vh - 80px);
+}
+@media only screen and (max-width: 600px) {
+  .biz-day__socials-two-container {
+    height: 75px;
+    top: calc(90% - 80px) !important;
+  }
 }
 .biz-day__socials-two-container .biz-day__socials-two-wrapper {
   position: absolute;
@@ -492,9 +513,12 @@ body {
 }
 @media only screen and (max-width: 600px) {
   .biz-day-la__towers-mobile img {
-    height: 230px;
+    height: 210px;
+    right: -25px;
+    width: 600px;
   }
 }
+
 .biz-day-section__container {
   height: auto;
 }
@@ -591,7 +615,7 @@ body {
 }
 
 .biz-day-content__container--not-full-height {
-  height: 90vh;
+  height: 90%;
   position: relative;
 }
 .biz-day-content__container--not-full-height .biz-day__socials-two-container {
@@ -604,7 +628,7 @@ body {
 }
 @media screen and (max-width: 600px) {
   .biz-day-content__container--not-full-height .biz-day-la__towers-wrapper {
-    height: 78vh;
+    height: 85%;
   }
 }
 .biz-day-content__container--not-full-height .cloud-container .cloud:nth-of-type(1) {
@@ -669,10 +693,6 @@ body {
 
 .biz-day__copy-right {
   margin-top: 30px;
-}
-
-.biz-day__footer-link {
-  color: #fff;
 }
 
 @keyframes float {
