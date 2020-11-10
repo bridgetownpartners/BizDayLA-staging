@@ -252,7 +252,12 @@ body {
     width: 80%;
   }
 }
-@media (min-width: 1921px) and (max-width: 2560px) {
+@media (min-width: 1921px) and (max-width: 2160px) {
+  .biz-day-la__towers-wrapper .biz-day-la__towers {
+    height: 720px;
+  }
+}
+@media (min-width: 2161px) and (max-width: 2560px) {
   .biz-day-la__towers-wrapper .biz-day-la__towers {
     height: 850px;
   }
@@ -317,7 +322,12 @@ body {
     margin: 0 auto;
   }
 }
-@media (max-width: 1024px) and (min-width: 768px) {
+@media (min-width: 601px) and (max-width: 767px) {
+  .biz-day__socials-two-container .biz-day__socials-two-wrapper {
+    bottom: -25px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
   .biz-day__socials-two-container .biz-day__socials-two-wrapper {
     bottom: 0;
   }
@@ -473,9 +483,14 @@ body {
     right: 50px;
   }
 }
+@media (min-width: 601px) and (max-width: 767px) {
+  .drone-container {
+    top: 320px;
+  }
+}
 @media (min-width: 768px) and (max-width: 1024px) {
   .drone-container {
-    top: 450px;
+    top: 350px;
   }
 }
 @media (min-width: 1025px) and (max-width: 1440px) {
@@ -489,7 +504,13 @@ body {
     right: 120px;
   }
 }
-@media (min-width: 1921px) and (max-width: 2560px) {
+@media (min-width: 1921px) and (max-width: 2160px) {
+  .drone-container {
+    top: 450px;
+    right: 150px;
+  }
+}
+@media (min-width: 2161px) and (max-width: 2560px) {
   .drone-container {
     top: 550px;
     right: 120px;
@@ -674,6 +695,11 @@ body {
   left: 500px;
   top: 100px;
 }
+@media (min-width: 601px) and (max-width: 767px) {
+  .biz-day-content__container--not-full-height .cloud-container .cloud:nth-of-type(1) {
+    display: none;
+  }
+}
 .biz-day-content__container--not-full-height .cloud-container .cloud:nth-of-type(2) {
   bottom: 480px;
   right: 400px;
@@ -709,6 +735,11 @@ body {
   justify-content: center;
   margin-bottom: 15px;
   width: 245px;
+}
+@media (min-width: 601px) and (max-width: 800px) {
+  .biz-day-sponsors__wrapper .biz-day-sponsor__card {
+    width: 240px;
+  }
 }
 .biz-day-sponsors__wrapper .biz-day-sponsor__card img {
   min-height: 140px;
