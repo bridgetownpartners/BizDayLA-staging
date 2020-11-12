@@ -234,6 +234,11 @@ body {
     height: 255px;
   }
 }
+@media (min-height: 600px) and (max-height: 700px) {
+  .biz-day-la__towers-wrapper .biz-day-la__towers {
+    height: 350px;
+  }
+}
 @media (min-width: 769px) and (max-width: 1024px) {
   .biz-day-la__towers-wrapper .biz-day-la__towers {
     height: 305px;
