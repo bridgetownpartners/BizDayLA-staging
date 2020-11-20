@@ -218,9 +218,10 @@ body {
 .biz-day-la__towers-wrapper .biz-day-la__towers {
   display: flex;
   justify-content: flex-end;
-  height: 490px;
+  height: auto;
 }
 .biz-day-la__towers-wrapper .biz-day-la__towers img {
+  height: auto;
   width: 85%;
 }
 @media only screen and (max-width: 600px) {
@@ -229,43 +230,17 @@ body {
     height: auto;
   }
 }
-@media (min-width: 601px) and (max-width: 768px) {
-  .biz-day-la__towers-wrapper .biz-day-la__towers {
-    height: 255px;
-  }
-}
-@media (min-height: 600px) and (max-height: 700px) {
-  .biz-day-la__towers-wrapper .biz-day-la__towers {
-    height: 350px;
-  }
-}
-@media (min-width: 769px) and (max-width: 1024px) {
-  .biz-day-la__towers-wrapper .biz-day-la__towers {
-    height: 305px;
-  }
-}
 @media screen and (max-width: 1440px) {
   .biz-day-la__towers-wrapper .biz-day-la__towers img {
     width: 80%;
   }
 }
 @media (min-width: 1441px) and (max-width: 1920px) {
-  .biz-day-la__towers-wrapper .biz-day-la__towers {
-    height: 600px;
-  }
   .biz-day-la__towers-wrapper .biz-day-la__towers img {
     width: 80%;
   }
 }
-@media (min-width: 1921px) and (max-width: 2160px) {
-  .biz-day-la__towers-wrapper .biz-day-la__towers {
-    height: 720px;
-  }
-}
 @media (min-width: 2161px) and (max-width: 2560px) {
-  .biz-day-la__towers-wrapper .biz-day-la__towers {
-    height: 850px;
-  }
   .biz-day-la__towers-wrapper .biz-day-la__towers img {
     width: 85%;
   }
