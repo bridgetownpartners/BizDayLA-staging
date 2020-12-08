@@ -1,7 +1,8 @@
-Staging site for BizDay.LA
+Staging site for BizDayGlobal
 ===
 
 Notes...
+* URL = [https://BizDayGlobal.com](https://BizDayGlobal.com)
 * Changes committed to the `master` branch will appear at [https://staging.BizDay.LA](https://staging.BizDay.LA).
 * All files in this repo are subject to change _except_ for `CNAME`. HTTP Header Redirection needs the contents of `CNAME` in order to work correctly.
 
