@@ -757,6 +757,19 @@ body {
   width: 100%;
 }
 
+.biz-day-section__media-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.biz-day-sectio__media-item {
+  flex: 1;
+}
+
+.biz-day-sectio__media-item iframe {
+  width: 100%;
+}
+
 @media screen and (max-width: 600px) {
   .biz-day__heading-wrapper {
     margin-bottom: 30px;
