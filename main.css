@@ -751,6 +751,12 @@ body {
   margin: 0 22px 15px;
 }
 
+.bizday_card_topic--has-image {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
 @media screen and (max-width: 600px) {
   .biz-day-section__container .biz-day-section__wrapper .biz-day-card__wrapper .bizday_card_topic {
     max-width: unset;
@@ -1138,4 +1144,3 @@ body {
   }
 }
 
-/*# sourceMappingURL=main.css.map */
