@@ -10,7 +10,7 @@
 		<meta name="viewport" content="width=device-width,initial-scale=1.0">
 		<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
 			rel="stylesheet">
-		<meta name='description' content='BizDayGlobal is the video podcast for business enthusiasts. Created in the USA. Connected with the world. Produced by Bridgetown Partners and RayHightower.com.'>
+		<meta name="description" content="BizDayGlobal is the video podcast for business enthusiasts. Created in the USA. Connected with the world. Produced by Bridgetown Partners and RayHightower.com.">
 	</head>
 
 	<body>
@@ -84,17 +84,19 @@
 				</div>
 			</div>
 
-			<div class="biz-day-section__wrapper">
+			<div class="biz-day-section__wrapper biz-day__partners-section">
 				<div class="biz-day__heading-wrapper">
-					<h3 class="biz-day__sub-heading">
-						<p>BizDayGlobal is produced by <a href="https://BridgetownPartners.com">Bridgetown Partners</a>.</p>
-						<h4>
-							Bridgetown buys commercial real estate.<br/>
-							Business owners and high net worth individuals invest in our partnerships.<br/>
-							Our investors enjoy capital preservation, tax advantages, and strong ROI.</p>
-							<a href="https://www.cashflowportal.com/offering/a026cf68deda468da97c5e69ca405c19"><img src="assets/current_offering.png" width="200" alt="Current offering: 145-unit multifamily property in Nashville, Tennessee."></a>
-						</h4>
+					<h3 class="biz-day__sub-heading sub-heading__partners">
+						BizDayGlobal is produced by <a target="_blank" href="https://BridgetownPartners.com"><img src="./assets/bridgetown-logo.png"/></a>
 					</h3>
+					<p>
+						Bridgetown buys commercial real estate.<br/>
+						Business owners and high net worth individuals invest in our partnerships.<br/>
+						Our investors enjoy capital preservation, tax advantages, and strong ROI.
+					</p>
+					<a class="biz-day__offering-button" href="https://www.cashflowportal.com/offering/a026cf68deda468da97c5e69ca405c19" target="_blank">
+						Current offering
+					</a>
 				</div>
 			</div>
 
@@ -105,88 +107,7 @@
 					</h3>
 				</div>
 
-				<div class="biz-day-card__wrapper">
-
-					<div class="bizday_card_topic">
-						<img class="bizday_card_topic_image" src="./assets/marketing.svg" alt="Marketing">
-						<h4 class="bizday_card_topic_title">
-							Marketing
-						</h4>
-						<p class="bizday_card_topic_description">
-							You have a great product. How do you get the market to buy it?
-						</p>
-					</div>
-
-					<div class="bizday_card_topic">
-						<img class="bizday_card_topic_image" src="./assets/technology.svg" alt="Technology">
-						<h4 class="bizday_card_topic_title">
-							Technology
-						</h4>
-						<p class="bizday_card_topic_description">
-							Should you hire a team of in-house software developers? How about outsourcing overseas?
-						</p>
-					</div>
-
-					<div class="bizday_card_topic">
-						<img class="bizday_card_topic_image" src="./assets/growth.svg" alt="Growth Strategies">
-						<h4 class="bizday_card_topic_title">
-							Growth strategies
-						</h4>
-						<p class="bizday_card_topic_description">
-							You already have a successful business. How do you make it bigger?
-						</p>
-					</div>
-
-					<div class="bizday_card_topic">
-						<img class="bizday_card_topic_image" src="./assets/hiring.svg" alt="Hiring">
-						<h4 class="bizday_card_topic_title">
-							Hiring
-						</h4>
-						<p class="bizday_card_topic_description">
-							How can leaders grow a company when critical talent is so tough to procure?
-						</p>
-					</div>
-
-					<div class="bizday_card_topic">
-						<img class="bizday_card_topic_image" src="./assets/investment.svg" alt="Investment Strategies">
-						<h4 class="bizday_card_topic_title">
-							Investment strategies
-						</h4>
-						<p class="bizday_card_topic_description">
-							You just sold a business. What’s next for your career?
-						</p>
-					</div>
-
-					<div class="bizday_card_topic">
-						<img class="bizday_card_topic_image" src="./assets/startup.svg" alt="Startup Strategies">
-						<h4 class="bizday_card_topic_title">
-							Startup strategies
-						</h4>
-						<p class="bizday_card_topic_description">
-							You have an idea for a great startup. What should you do next?
-						</p>
-					</div>
-
-					<div class="bizday_card_topic">
-						<img class="bizday_card_topic_image" src="./assets/exit.svg" alt="Exit Strategies">
-						<h4 class="bizday_card_topic_title">
-							Exit strategies
-						</h4>
-						<p class="bizday_card_topic_description">
-							You’re running a large, successful enterprise. How do you extract value so you can move on to your next venture?
-						</p>
-					</div>
-
-					<!-- <div class="bizday_card_topic">
-						<img class="bizday_card_topic_image" src="./assets/taxes.svg" alt="Taxes">
-						<h4 class="bizday_card_topic_title">
-							Taxes
-						</h4>
-						<p class="bizday_card_topic_description">
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim 
-						</p>
-					</div> -->
-				</div>
+				<div class="biz-day-card__wrapper" id="biz-day-card__wrapper"></div>
 
 				<div class="biz-day__heading-wrapper biz-day-section__full-socials-wrapper">
 					<a class="biz-day__socials-icon" target="_blank" href="https://www.youtube.com/channel/UCq5FcFOCydTmbeYD60qiEsw">
@@ -232,6 +153,8 @@
 			</div>
 			<!-- Footer section ends-->
 		</div>
+		
+		<script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+		<script type="text/javascript" src="main.js"></script>
 	</body>
-
 </html>
