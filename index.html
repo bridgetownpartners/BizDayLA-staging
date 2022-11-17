@@ -7,10 +7,12 @@
 		<title>BizDayGlobal - Video Podcast for Business Enthusiasts</title>
 		<link rel="icon" type="image/png" href="favicon.ico"/>
 		<link rel="stylesheet" href="./main.css">
+		<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick.css"/>
+		<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick-theme.css"/>
 		<meta name="viewport" content="width=device-width,initial-scale=1.0">
 		<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
 			rel="stylesheet">
-		<meta name='description' content='BizDayGlobal is the video podcast for business enthusiasts. Created in the USA. Connected with the world. Produced by Bridgetown Partners and RayHightower.com.'>
+		<meta name="description" content="BizDayGlobal is the video podcast for business enthusiasts. Created in the USA. Connected with the world. Produced by Bridgetown Partners and RayHightower.com.">
 	</head>
 
 	<body>
@@ -92,7 +94,7 @@
 					<p>
 						Bridgetown buys commercial real estate.<br/>
 						Business owners and high net worth individuals invest in our partnerships.<br/>
-						Our investors enjoy capital preservation, tax advantages, and strong ROI.</p>
+						Our investors enjoy capital preservation, tax advantages, and strong ROI.
 					</p>
 					<a class="biz-day__offering-button" href="https://www.cashflowportal.com/offering/a026cf68deda468da97c5e69ca405c19" target="_blank">
 						Current offering
@@ -153,29 +155,8 @@
 			</div>
 			<!-- Footer section ends-->
 		</div>
+		
+		<script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+		<script type="text/javascript" src="main.js"></script>
 	</body>
-
-	<script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
-	<script>
-		var dir = "./assets/automated-images/";
-		var fileextension = ".png";
-		$.ajax({
-			url: dir,
-			cors: true,
-			type: 'GET',
-			secure: true,
-			headers: {
-            	'Access-Control-Allow-Origin': '*',
-          	},
-			success: function (data) {
-				$(data).find("a:contains(" + fileextension + ")").each(function () {
-					var filename = this.href.replace(window.location.host, "").replace(window.location.pathname, "").replace("http://", "");
-					$("#biz-day-card__wrapper").append(
-						"<div class='bizday_card_topic bizday_card_topic--has-image' style='background-image: url("+ dir + filename +"); background-size: contain; background-repeat: no-repeat; background-position: center center;'></div>"
-					);
-				});
-			}
-		});
-	</script>
-
 </html>
