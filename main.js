@@ -1,7 +1,6 @@
 var redirectUrl = "https://www.youtube.com/c/BizDayGlobal/videos";
 var imgDir = "./assets/automated-images/";
-var url = "https://api.github.com/repos/bridgetownpartners/BizDayGlobal-staging/git/trees/a138149aeebb4499d7ad150f3801647d453ec262"; // feat/dynamic-images/assets/automated-images
-// 32507e3866da46e3a63fe41b61ed287afbad4fe6 // assets
+var url = "https://api.github.com/repos/bridgetownpartners/BizDayGlobal-live/git/trees/f60091048b074180d948b5bc62a1f2ccefcfa879"; // master/assets/automated-images
 var fileextension = ".png";
 var fileextensionJpg = ".jpg";
 var fileextensionJpeg = ".jpeg";
